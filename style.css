@@ -17,3 +17,27 @@ nav{
     gap:2vw;
     font-weight: bold;
 }
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #DC3545;
+    margin: 0;
+    padding: 0;
+}
+.mainlogo{
+    height: 30vh;
+    width: 20vw;
+    margin-top: 10vh;
+}
+.renom{
+    margin-top: 0;
+    margin-bottom: 8vh;
+}
+.h1{
+    margin-top: 0;
+    padding: 0;
+}

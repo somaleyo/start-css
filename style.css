@@ -195,8 +195,58 @@ input{
     font-family: Arial, sans-serif;
     width: 4vw;
     height: 5vh;
+  
 }
 textarea{
     width: 25vw;
 
+}
+footer{
+    display: flex;
+    background-color:#2C3E50 ;
+    color:white;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    padding-bottom: 10vh;
+    padding-top: 4vh;
+}
+.loc{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20vw;
+}
+i{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding:1vh;
+    display: flex;
+    flex-direction:row;
+}
+.logocontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1vh;
+    gap: 0.5vw;
+}
+
+.web{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    
+}
+.ttl{
+    padding-bottom: 1vh;
+}
+.freelancer{
+    padding-right: 10vw;
+    width: 20vw;
+}
+footer p{
+    padding-top: 1vh;
+}
+a{
+    color: white;
 }

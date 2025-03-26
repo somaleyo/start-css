@@ -250,3 +250,13 @@ footer p{
 a{
     color: white;
 }
+.copy{
+    background-color: #1A252F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}

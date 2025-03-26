@@ -1,5 +1,6 @@
 body{
     font-family:Lato;
+    margin: 0;
 }
 p{
     margin: 0;
@@ -85,7 +86,7 @@ header{
     font-weight: bold;
 }
 .images{
-    padding-left: 20vw;
+    padding-left: 25vw;
     padding-right: 20vw;
     display: flex;
     flex-wrap: wrap;
@@ -93,6 +94,7 @@ header{
     gap: 35px;
     padding-top: 0;
     margin-top: 0;
+    margin-bottom: 7vh;
 }
 .images img{
   
@@ -105,4 +107,39 @@ header{
 h2{
     margin-bottom: 0;
     font-family: Montserrat
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #DC3545;
+    flex-direction: column;
+    color: white;
+}
+#about h1{
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+    font-size: 2vw;
+}
+.container-text{
+    display: flex;
+    flex-direction: row;
+    gap:0px;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+.text{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 20vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: start;
+    line-height: 1.5;
+
 }
